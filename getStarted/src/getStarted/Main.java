@@ -1,9 +1,5 @@
 package getStarted;
-
-public class Main {
-
-	public static void main(String[] args) {
-		// Método pricipal 
+//Método pricipal 
 		//Tudo executavel deve estar dentro desse método 
 		//Objeto algo que representa o mundo real 
 		//Caneta um objeto que contem seus atributos
@@ -33,7 +29,36 @@ public class Main {
 		//Objeto -> Instancia de uma classe 
 		//Abstração -> Objetos da mesma classe temos atributos porem estado diferentes 
 		//Exemplo abstração -> Escola ou pessoa porem atributos que importar em um ambiente 
+public class Main {
+
+	public static void main(String[] args) {
 		
+		/*
+		 * Uma caneta Azul Ponta 0.5 Modelo null Carga 0
+		 * La da classe Pen 
+		 */
+		Pen Pen = new Pen();
+		Pen.cor = "Azul";
+		Pen.ponta = 0.5f;
+		Pen.tampada=true;
+		
+		//Chamando o método rabiscar da classe Pen verifica se ta tampada ou destampada
+		Pen.status();
+		Pen.rabiscar();
+		
+		//Instanciando um novo objeto pen mesmo atribitos e mesmo metodos  mudando estado ou valor de atributo 
+		Pen Pen2 = new Pen();
+		Pen2.modelo="Bic";
+		Pen2.cor="Preta";
+		Pen2.ponta=0.9f;
+		Pen2.tampada=false;
+		
+		
+		Pen2.tampar();
+		Pen2.status();
+		
+		
+				
 		
 	}
 
