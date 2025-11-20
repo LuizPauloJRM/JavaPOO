@@ -19,7 +19,22 @@ public class Main {
 		//Classe -> Caneta -> Definir atributos caracteristicas  
 		//Método rabiscar()
 		//Todo método pode receber parametros 
-
+		//Classe Caneta 
+		//cor : Caractere 
+		//modelo: Caractere 
+		//Carga : Inteiro
+		//Tampada: Lógico 
+		//Atributos metodos e estado 
+		//Instanciar c1 = nova Caneta a partir de uma classe 
+		//c1.cor="Azul"
+		//c1.rabiscar() Método
+		//c2 = nova caneta  -> Elas vem da mesma classe o molde 
+		//Classe -> Define atributos comuns (protótico)
+		//Objeto -> Instancia de uma classe 
+		//Abstração -> Objetos da mesma classe temos atributos porem estado diferentes 
+		//Exemplo abstração -> Escola ou pessoa porem atributos que importar em um ambiente 
+		
+		
 	}
 
 }
