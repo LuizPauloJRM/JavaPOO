@@ -14,6 +14,7 @@ public class Main {
 		
 		//Aluno. -> Acessa o que tem no aluno "."
 		//public consigo acessar os atributos
+		//Acesso a atributos
 		aluno1.nome = "Luiz";
 		System.out.println(aluno1.nome);
 		
