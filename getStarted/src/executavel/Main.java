@@ -4,31 +4,45 @@ package executavel;
 import Classes.Aluno;
 
 public class Main {
-	//Método executável do Java
-	public static void main(String[]args) {
+	// Método executável do Java
+	public static void main(String[] args) {
+
+		// Criando objetos
+		// Iniciando aluno1
+		Aluno aluno1 = new Aluno();// Exemplo Joao
+		//Agora chama pelo set para poder settar o nome adicionar
+		aluno1.setNome("Joao");//Adicionar nome colocando o set para
+		aluno1.setCpf("054544211164");
+		aluno1.setDataNascimento("03/0481999");
+		aluno1.setMatricula(202310962);
+		aluno1.setIdade(28);
+		System.out.println("nome: "+aluno1.nome);//Ou get nome 
+		System.out.println("idade: "+ aluno1.getIdade());
+		System.out.println("Data de nascimento: "+aluno1.getDataNascimento());
+		System.out.println("Matriculo: "+aluno1.getMatricula());
+		System.out.println("CPF: "+aluno1.getCpf());
 		
 		
-		//Criando objetos
-		//Iniciando aluno1
-		Aluno aluno1=new Aluno();//Exemplo Joao
-		
-		//Aluno. -> Acessa o que tem no aluno "."
-		//public consigo acessar os atributos
-		//Acesso a atributos
-		aluno1.nome = "Luiz";
-		System.out.println(aluno1.nome);
-		
-		//Objeto ainda não existe na memória 
-		//Aluno aluno1;
-		
-		//Instanciando , criando um aluno da classe Aluno 	
-		Aluno aluno2= new Aluno();//Luiz
-		//Objeto do tipo Aluno do tipo da classe 
-		
-		//Nome padrao com construtor 
+		// Aluno. -> Acessa o que tem no aluno "."
+		// public consigo acessar os atributos
+		// Acesso a atributos
+//		aluno1.nome = "Luiz";
+//		System.out.println(aluno1.nome);
+
+		// Objeto ainda não existe na memória
+		// Aluno aluno1;
+
+		// Instanciando , criando um aluno da classe Aluno
+		Aluno aluno2 = new Aluno();// Paulo
+		aluno2.nome = "Paulo";
+		aluno2.idade = 48;
+		System.out.println(aluno2.nome + " " + aluno2.idade);
+		// Objeto do tipo Aluno do tipo da classe
+
+		// Nome padrao com construtor
 		Aluno aluno3 = new Aluno("Luiz");
-		
-		//Nome e idade 
-		Aluno aluno4 = new Aluno ("Paulo",45);
+
+		// Nome e idade
+		Aluno aluno4 = new Aluno("Paulo", 45);
 	}
 }
