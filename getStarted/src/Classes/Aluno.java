@@ -42,7 +42,23 @@ public class Aluno {
 		return (nota1 + nota2 + nota3 + nota4 / 4);
 	}
 	
-	
+	//Reutilizando método para ver se esta aprovado 
+	//Outro método com outra responsabilidade 
+	//boolean para true e false 
+	//Reutilizar o método de getNota : Pega os valores das notas 1,2,3,4
+	//vou chamar o get aluno aprovado e retorna a media e faz uma verificação 
+	// Se a nota for menor que 7 aprovado senao reprovado 
+	//Posso retornar umna String tambem public String return "Aprovado"
+	//Contem uma regra de negócio
+	public boolean getAlunoAprovado() {
+		//responsabilidades
+		double media = this.getMediaNota();
+		if (media >= 7) {
+			return true;
+		}else {
+			return false;
+		}
+	}
 	
 	
 	//Setters e Getters do objeto 

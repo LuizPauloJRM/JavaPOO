@@ -26,6 +26,8 @@ public class Main {
 		
 		//Chamada de método MediaNota executa tudo que tem  dentro do método
 		System.out.println("O aluno "+aluno1.getNome()+" teve a Media "+aluno1.getMediaNota());
+		System.out.println("Situação do aluno  : " + aluno1.getAlunoAprovado());
+	
 		
 		
 		
@@ -48,8 +50,14 @@ public class Main {
 		// Instanciando , criando um aluno da classe Aluno
 		Aluno aluno2 = new Aluno();// Paulo
 		aluno2.nome = "Paulo";
-		aluno2.idade = 48;
+		aluno2.idade = 18;
+		aluno2.setNota1(0);
+		aluno2.setNota2(4);
+		aluno2.setNota3(1);
+		aluno2.setNota4(2);
 		System.out.println(aluno2.nome + " " + aluno2.idade);
+		System.out.println("Situacao: "+aluno2.getAlunoAprovado());
+		System.out.println("Nota: "+aluno2.getMediaNota());
 		// Objeto do tipo Aluno do tipo da classe
 
 		// Nome padrao com construtor
