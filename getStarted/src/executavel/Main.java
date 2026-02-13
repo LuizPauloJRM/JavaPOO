@@ -12,6 +12,11 @@ public class Main {
 		//Iniciando aluno1
 		Aluno aluno1=new Aluno();//Exemplo Joao
 		
+		//Aluno. -> Acessa o que tem no aluno "."
+		//public consigo acessar os atributos
+		aluno1.nome = "Luiz";
+		System.out.println(aluno1.nome);
+		
 		//Objeto ainda não existe na memória 
 		//Aluno aluno1;
 		

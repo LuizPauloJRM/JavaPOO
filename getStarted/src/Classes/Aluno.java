@@ -4,7 +4,7 @@ public class Aluno {
 	//Classe do tipo Aluno 
 	//Classe/ Objeto que representa aluno com seus atributos 
 	//São atributos de um aluno 
-	String nome; 
+	public String nome; 
 	int idade; 
 	float nota;
 	String dataNascimento;
