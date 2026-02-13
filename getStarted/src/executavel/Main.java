@@ -16,6 +16,19 @@ public class Main {
 		aluno1.setDataNascimento("03/0481999");
 		aluno1.setMatricula(202310962);
 		aluno1.setIdade(28);
+		
+		//Para usar o método de calcular notas 
+		//Passando as notas para o objeto armazenado nos atributos da variáveis 
+		aluno1.setNota1(7);
+		aluno1.setNota2(5);
+		aluno1.setNota3(4);
+		aluno1.setNota4(6);
+		
+		//Chamada de método MediaNota executa tudo que tem  dentro do método
+		System.out.println("O aluno "+aluno1.getNome()+" teve a Media "+aluno1.getMediaNota());
+		
+		
+		
 		System.out.println("nome: "+aluno1.nome);//Ou get nome 
 		System.out.println("idade: "+ aluno1.getIdade());
 		System.out.println("Data de nascimento: "+aluno1.getDataNascimento());
