@@ -7,6 +7,7 @@ public class Main {
 	// Método executável do Java
 	public static void main(String[] args) {
 
+	
 		// Criando objetos
 		// Iniciando aluno1
 		Aluno aluno1 = new Aluno();// Exemplo Joao
